@@ -21,6 +21,15 @@ fn app() -> Element {
                 gap: 20px;
                 font-family: monospace;
             ",
+
+            h1 {
+                style: "
+                    font-size: 48px;
+                    color: #000000ff;
+                ",
+                "Gerador de Senhas fortes automaticas"
+            },
+
             button {
                 style: "
                     background-color: #0984ffff;
