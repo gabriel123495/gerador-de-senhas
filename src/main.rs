@@ -8,7 +8,6 @@ fn main() {
 
 #[component]
 fn app() -> Element {
-    // Declare como mut!
     let mut senha = use_signal(|| String::new());
 
     rsx! {
