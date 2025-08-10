@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>senhas</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+  <link rel="preload" as="script" href="/./assets/senhas-4474117fa1b159b3.js" crossorigin><link rel="preload" as="fetch" type="application/wasm" href="/./assets/senhas_bg-e5d3b8efb20abc7a.wasm" crossorigin></head>
+  <body>
+    <div id="main"></div>
+  <script>
+            // We can't use a module script here because we need to start the script immediately when streaming
+            import("/./assets/senhas-4474117fa1b159b3.js").then(
+                ({ default: init }) => {
+                init("/./assets/senhas_bg-e5d3b8efb20abc7a.wasm").then((wasm) => {
+                    if (wasm.__wbindgen_start == undefined) {
+                    wasm.main();
+                    }
+                });
+                }
+            );
+            </script>
+            
+            </body>
+</html>
