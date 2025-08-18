@@ -60,7 +60,7 @@ fn App() -> Element {
                     let mut rng = rand::thread_rng();
                     let password: String = (0..30)
                         .map(|_| {
-                            let idx = rng.gen_range(0..CHARSET_1.len());
+                            let idx = rng.gen_range(0..charset.len());
                             CHARSET_1[idx] as char
                         })
                         .collect();
