@@ -56,15 +56,14 @@ fn App() -> Element {
                     } else {
                         CHARSET_4
                     };
-
+                    
                     let mut rng = rand::thread_rng();
                     let password: String = (0..30)
                         .map(|_| {
-                            let idx = rng.gen_range(0..charset.len());
-                            charset[idx] as char
+                            let idx = rng.gen_range(0..CHARSET_1.len());
+                            CHARSET_1[idx] as char
                         })
                         .collect();
-
                     senha.set(password);
                 },
                 "Gerar Nova Senha"
