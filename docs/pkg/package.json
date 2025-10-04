@@ -1,0 +1,15 @@
+{
+  "name": "senhas",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "senhas_bg.wasm",
+    "senhas.js",
+    "senhas.d.ts"
+  ],
+  "main": "senhas.js",
+  "types": "senhas.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
