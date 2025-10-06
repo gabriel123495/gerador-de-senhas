@@ -15,14 +15,17 @@ O que o comando faz?
 
 - limpa os conteúdos da pasta `docs/`
 - faz o build do projeto
-- joga os arquivos da pasta `compila` e depois cola pra dentro da pasta `docs/`
-- joga os arquivos da build pra dentro da pasta `docs/`
+- joga os arquivos da pasta `pkg`, `web` e `src` e depois cola pra dentro da pasta `docs/`
 
 # aviso importante!!! 
 edite o makefile pois ele só funciona na minha maquina
 
 # como compilar e testar
 digite:
+
+```make```
+
+caso não queira usar este comando pode usaar estes abaixo
 ```
 cargo install wasm-pack
 npm install -g serve
