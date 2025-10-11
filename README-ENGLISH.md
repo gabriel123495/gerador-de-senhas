@@ -1,5 +1,5 @@
 # passwords generator
-modfy this how do you want, because with no licenses you can do whatever do you want 
+generate safe passwords!
 
 ## how to build
 
@@ -34,3 +34,6 @@ npm install -g serve
 cd docs
 serve -l 8080
 ``` 
+
+# extra
+if you want to contact the creator of the project my gmail is gabriel.leonardo.cruz2012@gmail.com

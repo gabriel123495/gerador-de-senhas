@@ -1,5 +1,5 @@
 # gerador de senhas
-modifique isto como quiser, pois sem licensa de uso tu pode fazer oque quiser.
+gere senhas seguras!
 
 ## Como fazer o build
 
@@ -36,3 +36,5 @@ npm install -g serve
 cd docs
 serve -l 8080
 ```
+# extra
+caso queira entrar em contato com o criador do projeto o meu gmail é gabriel.leonardo.cruz2012@gmail.com
