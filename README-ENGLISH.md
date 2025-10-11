@@ -5,11 +5,12 @@ modfy this how do you want, because with no licenses you can do whatever do you 
 
 every time that you change the code, before using `git push` you need to make the build of the project
 
-to make the build install the tool `make` and run the command: 
+if you are on windows type: 
+```.\makefile.ps1``` 
 
-```
-make build
-```
+if you are on linux/macOS/BSD:
+
+```.\makefile.sh```
 
 What it does?
 

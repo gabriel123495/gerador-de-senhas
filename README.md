@@ -21,11 +21,15 @@ O que o comando faz?
 edite o makefile pois ele só funciona na minha maquina
 
 # como compilar e testar
-digite:
+caso esteja no windows digite:
 
-```make```
+```.\makefile.ps1```
 
-caso não queira usar este comando pode usaar estes abaixo
+caso esteja no linux/macOS digite:
+
+```.\makefile.sh```
+
+caso não queira usar este comando pode usar estes abaixo
 ```
 cargo install wasm-pack
 npm install -g serve
