@@ -18,13 +18,6 @@ What it does?
 - build the project
 - throw the files of the folder `pkg`, `web`and `src`and after it paste on the `/docs`folder
 
-# important warning!!!
-edit the makefile because it only works on my machine
-
-# how to compile and test
-type:
-
-```make```
 
 if you dont want to type this command you can try these below:
 
