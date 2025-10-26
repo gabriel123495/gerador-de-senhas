@@ -1,27 +1,37 @@
-# gerador de senhas
-gere senhas seguras!
+# 🔐 Gerador de Senhas
+Gere senhas seguras!
 
-<<<<<<< HEAD
-# como compilar e testar
-primeiro teremos que instalar o nushell em https://github.com/nushell/nushell/releases
-depois digite 
-```.\build.nu
+---
+
+## ⚙️ Como Compilar e Testar
+
+Toda vez que você alterar o código, antes de usar `git push`, é necessário compilar o projeto.
+Primeiro, você precisa instalar o Nushell:  
+[https://github.com/nushell/nushell/releases](https://github.com/nushell/nushell/releases)
+
+Depois, execute os seguintes comandos:
+.\build.nu 
 npm install -g serve
 serve docs -l 8080
-```
-# extra
-caso queira entrar em contato com o criador do projeto o meu gmail é gabriel.leonardo.cruz2012@gmail.com
-=======
-# aviso importante!!! 
-edite o makefile pois ele só funciona na minha maquina
 
-# como compilar e testar
-```
-./build.nu 
-npm install -g serve
-cd docs
-serve -l 8080
-```
+
+O que esse comando faz?
+
+- Apaga o conteúdo da pasta `/docs`
+- Compila o projeto
+- Move os arquivos das pastas `pkg`, `web` e `src`, e depois os cola na pasta `/docs`
+
+Se você não quiser digitar esse comando manualmente, pode tentar os comandos abaixo:
+
 # extra
-caso queira entrar em contato com o criador do projeto o meu gmail é gabriel.leonardo.cruz2012@gmail.com
->>>>>>> c0c5963e23bea3d30fb2751ae83a2b975253e617
+Se quiser entrar em contato com o criador do projeto, meu Gmail é: gabriel.leonardo.cruz2012@gmail.com
+
+
+# extra
+Se quiser entrar em contato com o criador do projeto, meu Gmail é: gabriel.leonardo.cruz2012@gmail.com
+
+
+
+
+
+
