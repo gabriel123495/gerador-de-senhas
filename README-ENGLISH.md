@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🔐 Password Generator
 Generate secure passwords!
 
@@ -6,12 +6,13 @@ Generate secure passwords!
 
 ## ⚙️ How to Compile and Test
 
-First, you need to install Nushell from:  
-[https://github.com/nushell/nushell/releases](https://github.com/nushell/nushell/releases)
+First, you need to install PowerShell from:  
+[https://github.com/PowerShell/PowerShell/releases](https://github.com/PowerShell/PowerShell/releases)
+
 
 Then run the following commands:
 ```
-.\build.nu
+.\makefile.ps1
 npm install -g serve
 serve docs -l 8080
 ```

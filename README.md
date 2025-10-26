@@ -6,11 +6,11 @@ Gere senhas seguras!
 ## ⚙️ Como Compilar e Testar
 
 Toda vez que você alterar o código, antes de usar `git push`, é necessário compilar o projeto.
-Primeiro, você precisa instalar o Nushell:  
-[https://github.com/nushell/nushell/releases](https://github.com/nushell/nushell/releases)
+Primeiro, você precisa instalar o PowerShell:  
+[Releases oficiais do PowerShell no GitHub](https://github.com/PowerShell/PowerShell/releases)
 
 Depois, execute os seguintes comandos:
-.\build.nu 
+.\makefile.ps1 
 npm install -g serve
 serve docs -l 8080
 

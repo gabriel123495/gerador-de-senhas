@@ -1,31 +1,37 @@
-# gerador de senhas
-modifique isto como quiser, pois sem licensa de uso tu pode fazer oque quiser.
+# 🔐 Gerador de Senhas
+Gere senhas seguras!
 
-## Como fazer o build
+---
 
-Sempre que mudar o código, antes de dar o `git push`, você deve fazer o build do projeto.
+## ⚙️ Como Compilar e Testar
 
-Pra fazer o build, instale a ferramenta `make` e rode o comando:
+Toda vez que você alterar o código, antes de usar `git push`, é necessário compilar o projeto.
+Primeiro, você precisa instalar o Nushell:  
+[https://github.com/nushell/nushell/releases](https://github.com/nushell/nushell/releases)
 
-```
-make build
-```
-
-O que o comando faz?
-
-- limpa os conteúdos da pasta `docs/`
-- faz o build do projeto
-- joga os arquivos da pasta `compila` e depois cola pra dentro da pasta `docs/`
-- joga os arquivos da build pra dentro da pasta `docs/`
-
-# aviso importante!!! 
-edite o makefile pois ele só funciona na minha maquina
-
-# como compilar e testar
-digite:
-```
-cargo install wasm-pack
+Depois, execute os seguintes comandos:
+.\build.nu 
 npm install -g serve
-cd docs
-serve -l 8080
-```
+serve docs -l 8080
+
+
+O que esse comando faz?
+
+- Apaga o conteúdo da pasta `/docs`
+- Compila o projeto
+- Move os arquivos das pastas `pkg`, `web` e `src`, e depois os cola na pasta `/docs`
+
+Se você não quiser digitar esse comando manualmente, pode tentar os comandos abaixo:
+
+# extra
+Se quiser entrar em contato com o criador do projeto, meu Gmail é: gabriel.leonardo.cruz2012@gmail.com
+
+
+# extra
+Se quiser entrar em contato com o criador do projeto, meu Gmail é: gabriel.leonardo.cruz2012@gmail.com
+
+
+
+
+
+
