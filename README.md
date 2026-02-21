@@ -27,9 +27,6 @@ Se você não quiser digitar esse comando manualmente, pode tentar os comandos a
 Se quiser entrar em contato com o criador do projeto, meu Gmail é: gabriel.leonardo.cruz2012@gmail.com
 
 
-# extra
-Se quiser entrar em contato com o criador do projeto, meu Gmail é: gabriel.leonardo.cruz2012@gmail.com
-
 
 
 
