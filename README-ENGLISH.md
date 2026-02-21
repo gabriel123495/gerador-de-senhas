@@ -6,13 +6,13 @@ Generate secure passwords!
 
 ## ⚙️ How to Compile and Test
 
-First, you need to install PowerShell from:  
-[https://github.com/PowerShell/PowerShell/releases](https://github.com/PowerShell/PowerShell/releases)
+First, you need to install Justfile from:  
+[Justfile's Github Oficial Github Releases](https://github.com/casey/just/releases)
 
 
 Then run the following commands:
 ```
-.\makefile.ps1
+just build
 npm install -g serve
 serve docs -l 8080
 ```
