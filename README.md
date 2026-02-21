@@ -6,8 +6,8 @@ Gere senhas seguras!
 ## ⚙️ Como Compilar e Testar
 
 Toda vez que você alterar o código, antes de usar `git push`, é necessário compilar o projeto.
-Primeiro, você precisa instalar o PowerShell:  
-[Releases oficiais do PowerShell no GitHub](https://github.com/PowerShell/PowerShell/releases)
+Primeiro, você precisa instalar o Justfile:  
+[Releases oficiais do Justfile no GitHub](https://github.com/casey/just/releases)
 
 Depois, execute os seguintes comandos:
 .\makefile.ps1 
