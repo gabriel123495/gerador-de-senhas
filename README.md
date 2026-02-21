@@ -10,9 +10,11 @@ Primeiro, você precisa instalar o Justfile:
 [Releases oficiais do Justfile no GitHub](https://github.com/casey/just/releases)
 
 Depois, execute os seguintes comandos:
+```
 just build 
 npm install -g serve
 serve docs -l 8080
+```
 
 
 O que esse comando faz?
